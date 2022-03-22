@@ -19,7 +19,7 @@ const compute = () =>
     // validate user input is a positive number
     if (principal <= 0) {
         alert("Enter a positive number.");
-        principal.focus();
+        document.getElementById("principal").focus();
         return false;
     }
 

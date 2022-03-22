@@ -28,7 +28,7 @@ const compute = () =>
         `<br /> If you deposit $${highlight(currency(principal))},` 
         + `<br /> at an interest rate of ${highlight(rate +'%')}.`
         + `<br /> You will receive an amount of $${highlight(currency(interest))},`
-        + `<br /> in the year ${highlight(year)}.`;
+        + `<br /> in the year ${highlight(year)}. <br />`;
 }
 
 // function to update the rate as slider is moved

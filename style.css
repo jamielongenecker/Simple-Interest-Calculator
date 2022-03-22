@@ -8,13 +8,40 @@ h1 {
     font-family: Verdana;
 }
 
+footer {
+    float: left;
+}
+
+form {
+    display: table;
+}
+
+p {
+    display: table-row;
+}
+
+input {
+    display: table-cell;
+}
+
+label {
+    display: table-cell;
+    text-align: left;
+}
+
+select {
+    display: table-cell;
+}
+
 .maindiv {
     background-color: white;
     color: black;
     padding: 20px;
     width: 500px;
     border-radius: 25px;
-    margin: 0 auto;
+    margin: auto;
+    /* display: block; */
+    text-align: center;
 }
 
 .highlight {

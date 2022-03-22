@@ -25,14 +25,14 @@ const compute = () =>
 
     // write 
     document.getElementById("result").innerHTML = 
-        `<br /> If you deposit $${highlight(currency(principal))},` 
+        `<br /> If you deposit ${highlight(currency(principal))},` 
         + `<br /> at an interest rate of ${highlight(rate +'%')}.`
-        + `<br /> You will receive an amount of $${highlight(currency(interest))},`
+        + `<br /> You will receive an amount of ${highlight(currency(interest))},`
         + `<br /> in the year ${highlight(year)}. <br />`;
 }
 
 // function to update the rate as slider is moved
 const updateRate = () => {
-    var rateval = document.getElementById("rate").value;
+    var rateval = document.getElementById("rate").value + '%';
     document.getElementById("rate_val").innerText = rateval;
 }
